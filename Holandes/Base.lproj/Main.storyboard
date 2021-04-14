@@ -49,7 +49,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="P2b-vj-pgI" kind="show" id="4mG-ZR-E7O"/>
+                                    <segue destination="1Dh-to-enU" kind="show" id="s66-mw-Rc3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1b-HW-Sme">
@@ -68,7 +68,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="pJR-Tk-a4J" kind="show" id="Rpa-a4-c0M"/>
+                                    <segue destination="pJR-Tk-a4J" kind="show" id="bJr-Ph-RfI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUr-xi-ST5">
@@ -87,7 +87,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="1tz-rf-Z5c" kind="show" id="RHU-PJ-AtN"/>
+                                    <segue destination="1Dh-to-enU" kind="show" id="VHE-bf-pxB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -112,6 +112,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-523" y="-9"/>
+        </scene>
+        <!--Categorías-->
+        <scene sceneID="KmM-2F-ubM">
+            <objects>
+                <tableViewController id="1Dh-to-enU" customClass="CategoriesViewController" customModule="Holandes" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Eqa-nD-Fll">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableCell" textLabel="u9R-tr-oFf" detailTextLabel="BBv-0A-GEH" style="IBUITableViewCellStyleValue1" id="foM-u4-FqZ">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="categoryCell" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="foM-u4-FqZ" id="f4G-r9-0mF">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="u9R-tr-oFf">
+                                            <rect key="frame" x="20" y="12" width="33" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text=" " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BBv-0A-GEH">
+                                            <rect key="frame" x="389.5" y="12" width="4.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1Dh-to-enU" id="Q9Q-3g-wEE"/>
+                            <outlet property="delegate" destination="1Dh-to-enU" id="Twr-i9-dqj"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Categorías" id="tWo-ad-gOp"/>
+                    <connections>
+                        <segue destination="1tz-rf-Z5c" kind="show" identifier="flashcardsSegue" id="WEU-gN-47q"/>
+                        <segue destination="P2b-vj-pgI" kind="show" identifier="gameSegue" id="UKJ-Mz-vW2"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b4d-7M-nNV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="267" y="-9"/>
         </scene>
         <!--Juego-->
         <scene sceneID="drx-DZ-AKr">
@@ -224,7 +273,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Erg-XL-fBJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="327.536231884058" y="-9.375"/>
+            <point key="canvasLocation" x="1025" y="-9"/>
         </scene>
         <!--Results View Controller-->
         <scene sceneID="b6b-kF-NCK">
@@ -314,7 +363,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zlf-Vd-5dH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1195.6521739130435" y="-9.375"/>
+            <point key="canvasLocation" x="1907" y="-9"/>
         </scene>
         <!--Vocabulario-->
         <scene sceneID="Ran-nW-wJ2">
@@ -417,9 +466,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jls-ov-MY5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="327.536231884058" y="-708.48214285714278"/>
+            <point key="canvasLocation" x="1025" y="-696"/>
         </scene>
-        <!--Het / De-->
+        <!--het / de-->
         <scene sceneID="N1j-50-xfl">
             <objects>
                 <viewController id="pJR-Tk-a4J" customClass="HetDeViewController" customModule="Holandes" customModuleProvider="target" sceneMemberID="viewController">
@@ -522,7 +571,7 @@
                             <constraint firstItem="wsv-cf-EDg" firstAttribute="top" secondItem="Cwu-Rh-LRr" secondAttribute="bottom" constant="43" id="yjn-6p-Bnv"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Het / De" id="CeX-07-XFp"/>
+                    <navigationItem key="navigationItem" title="het / de" id="CeX-07-XFp"/>
                     <connections>
                         <outlet property="deAnswerButton" destination="sO7-XS-2XZ" id="ohL-Ya-gzY"/>
                         <outlet property="hetAnswerButton" destination="wsv-cf-EDg" id="OoS-Du-F5T"/>
@@ -533,11 +582,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hvl-vT-qNL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="327.536231884058" y="723.88392857142856"/>
+            <point key="canvasLocation" x="1025" y="684"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Ewe-Ru-X9C"/>
+        <segue reference="VHE-bf-pxB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="checkmark" catalog="system" width="128" height="114"/>

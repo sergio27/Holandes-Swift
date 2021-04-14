@@ -13,8 +13,9 @@ class FlashcardsViewController: UIViewController {
     @IBOutlet weak var correctButton: UIButton!
     @IBOutlet weak var wrongButton: UIButton!
     
-    let engine = AppEngine()
     var words = [] as [Word]
+    
+    var category = ""
     
     var currentWord: Word?
     var cardFlipped = true
@@ -36,7 +37,9 @@ class FlashcardsViewController: UIViewController {
         correctButton.layer.borderColor = UIColor(named: "RadiantYellow")!.cgColor
         wrongButton.layer.borderColor = UIColor(named: "RadiantYellow")!.cgColor
         
-        words = engine.words
+        category = AppEngine.engine.selectedCategory
+        words = AppEngine.engine.getWords(withCategory: category)
+        
         words.shuffle()
         totalWords = words.count
         

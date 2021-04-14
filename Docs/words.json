@@ -1,0 +1,2112 @@
+[
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "groot",
+    "spanishWord": "grande",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "klein",
+    "spanishWord": "pequeño",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "mooi",
+    "spanishWord": "bonito",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "lelijk",
+    "spanishWord": "feo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "licht",
+    "spanishWord": "ligero",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "zwaar",
+    "spanishWord": "pesado",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "snel",
+    "spanishWord": "rápido",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "lekker",
+    "spanishWord": "delicioso",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "duur",
+    "spanishWord": "caro",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "goedkoop",
+    "spanishWord": "barato",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "fris",
+    "spanishWord": "fresco",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "slecht",
+    "spanishWord": "malo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "goed",
+    "spanishWord": "bueno",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "nieuw",
+    "spanishWord": "nuevo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "oud",
+    "spanishWord": "viejo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "vrij",
+    "spanishWord": "libre",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "vies",
+    "spanishWord": "sucio",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "schoon",
+    "spanishWord": "limpio",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "langzaam",
+    "spanishWord": "lento",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 1,
+    "dutchWord": "saai",
+    "spanishWord": "aburrido",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "arm",
+    "spanishWord": "pobre",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "rijk",
+    "spanishWord": "rico",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "donker",
+    "spanishWord": "oscuro",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "zacht",
+    "spanishWord": "suave",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "stout",
+    "spanishWord": "travieso",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "koud",
+    "spanishWord": "frío",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "warm",
+    "spanishWord": "cálido",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "hoog",
+    "spanishWord": "alto",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "laag",
+    "spanishWord": "largo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "smal",
+    "spanishWord": "estrecho",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "dik",
+    "spanishWord": "gordo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "dun",
+    "spanishWord": "delgado",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "moeilijk",
+    "spanishWord": "difícil",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "gemakkelijk",
+    "spanishWord": "fácil",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "leeg",
+    "spanishWord": "vacío",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "rustig",
+    "spanishWord": "tranquilo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "nat",
+    "spanishWord": "húmedo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "belangrijk",
+    "spanishWord": "importante",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "mogelijk",
+    "spanishWord": "posible",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Adjectieven",
+    "level": 2,
+    "dutchWord": "verkeerd",
+    "spanishWord": "equivocado",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "beer",
+    "spanishWord": "oso",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "olifant",
+    "spanishWord": "elefante",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "leeuw",
+    "spanishWord": "león",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "tijger",
+    "spanishWord": "tigre",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "hert",
+    "spanishWord": "venado",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "het",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "schildpad",
+    "spanishWord": "tortuga",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "eend",
+    "spanishWord": "pato",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "uil",
+    "spanishWord": "búho",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "pinguïn",
+    "spanishWord": "pingüino",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "vis",
+    "spanishWord": "pez",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "spin",
+    "spanishWord": "araña",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "hond",
+    "spanishWord": "perro",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "kat",
+    "spanishWord": "gato",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "konijn",
+    "spanishWord": "conejo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "het",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "muis",
+    "spanishWord": "ratón",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "koe",
+    "spanishWord": "vaca",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "paard",
+    "spanishWord": "caballo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "het",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "varken",
+    "spanishWord": "cerdo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "het",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "schaap",
+    "spanishWord": "oveja",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "het",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 1,
+    "dutchWord": "kip",
+    "spanishWord": "pollo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "aap",
+    "spanishWord": "mono",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "giraffe",
+    "spanishWord": "jirafa",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "krokodil",
+    "spanishWord": "cocodrilo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "kangoeroe",
+    "spanishWord": "canguro",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "neushoorn",
+    "spanishWord": "rinoceronte",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "nijlpaard",
+    "spanishWord": "hipopótamo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "het",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "zeehond",
+    "spanishWord": "foca",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "vlinder",
+    "spanishWord": "mariposa",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "slang",
+    "spanishWord": "serpiente",
+    "dutch-variants": "",
+    "spanish-variants": "víbora",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "kikker",
+    "spanishWord": "rana",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "duif",
+    "spanishWord": "paloma",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "dolfijn",
+    "spanishWord": "delfín",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "haai",
+    "spanishWord": "tiburón",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "bij",
+    "spanishWord": "abeja",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "vlieg",
+    "spanishWord": "mosca",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "mier",
+    "spanishWord": "hormiga",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "rat",
+    "spanishWord": "rata",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "stier",
+    "spanishWord": "toro",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "ezel",
+    "spanishWord": "burro",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 2,
+    "dutchWord": "haan",
+    "spanishWord": "gallo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "struisvogel",
+    "spanishWord": "avestruz",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "orka",
+    "spanishWord": "orca",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "kameel",
+    "spanishWord": "camello",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "hagedis",
+    "spanishWord": "lagarto",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "meeuw",
+    "spanishWord": "gaviota",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "salamander",
+    "spanishWord": "salamandra",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "pad",
+    "spanishWord": "sapo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "zwaan",
+    "spanishWord": "cisne",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "gans",
+    "spanishWord": "ganso",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "mus",
+    "spanishWord": "gorrión",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "merel",
+    "spanishWord": "mirlo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "roofvogel",
+    "spanishWord": "ave de presa",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "papegaai",
+    "spanishWord": "loro",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "wesp",
+    "spanishWord": "avispa",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "mug",
+    "spanishWord": "mosquito",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "rups",
+    "spanishWord": "oruga",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "kever",
+    "spanishWord": "escarabajo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "cavia",
+    "spanishWord": "conejillo de indias",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "hamster",
+    "spanishWord": "hámster",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Dieren",
+    "level": 3,
+    "dutchWord": "goudvis",
+    "spanishWord": "pez dorado",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "de",
+    "type": "noun"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "rood",
+    "spanishWord": "rojo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "oranje",
+    "spanishWord": "naranja",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "geel",
+    "spanishWord": "amarillo",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "groen",
+    "spanishWord": "verde",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "blauw",
+    "spanishWord": "azul",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "paars",
+    "spanishWord": "morado",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "roze",
+    "spanishWord": "rosa",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "bruin",
+    "spanishWord": "café",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "zwart",
+    "spanishWord": "negro",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "wit",
+    "spanishWord": "blanco",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Kleuren",
+    "level": 1,
+    "dutchWord": "grijs",
+    "spanishWord": "gris",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "adjective"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "antwoorden",
+    "spanishWord": "responder",
+    "dutch-variants": "",
+    "spanish-variants": "contestar",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "beginnen",
+    "spanishWord": "empezar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "bellen",
+    "spanishWord": "llamar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "doen",
+    "spanishWord": "hacer",
+    "dutch-variants": "maken",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "drinken",
+    "spanishWord": "beber",
+    "dutch-variants": "",
+    "spanish-variants": "tomar",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "eten",
+    "spanishWord": "comer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "gaan",
+    "spanishWord": "ir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "geven",
+    "spanishWord": "dar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "hebben",
+    "spanishWord": "tener",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "heten",
+    "spanishWord": "llamarse",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "horen",
+    "spanishWord": "oír",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "komen",
+    "spanishWord": "venir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "kopen",
+    "spanishWord": "comprar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "kunnen",
+    "spanishWord": "poder",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "lezen",
+    "spanishWord": "leer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "maken",
+    "spanishWord": "hacer",
+    "dutch-variants": "doen",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "spreken",
+    "spanishWord": "hablar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "vragen",
+    "spanishWord": "preguntar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "zijn",
+    "spanishWord": "ser o estar",
+    "dutch-variants": "",
+    "spanish-variants": "ser, estar",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 1,
+    "dutchWord": "leven",
+    "spanishWord": "vivir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "betalen",
+    "spanishWord": "pagar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "blijven",
+    "spanishWord": "permanecer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "brengen",
+    "spanishWord": "traer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "denken",
+    "spanishWord": "creer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "helpen",
+    "spanishWord": "ayudar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "kennen",
+    "spanishWord": "conocer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "kiezen",
+    "spanishWord": "elegir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "kijken",
+    "spanishWord": "mirar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "lopen",
+    "spanishWord": "andar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "praten",
+    "spanishWord": "hablar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "schrijven",
+    "spanishWord": "escribir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "slapen",
+    "spanishWord": "dormir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "spelen",
+    "spanishWord": "jugar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "verkopen",
+    "spanishWord": "vender",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "vertellen",
+    "spanishWord": "contar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "wachten",
+    "spanishWord": "esperar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "werken",
+    "spanishWord": "trabajar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "willen",
+    "spanishWord": "querer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "zeggen",
+    "spanishWord": "decir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 2,
+    "dutchWord": "zien",
+    "spanishWord": "ver",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "bestaan",
+    "spanishWord": "ser",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "bouwen",
+    "spanishWord": "construir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "gebruiken",
+    "spanishWord": "usar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "kosten",
+    "spanishWord": "costar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "lachen",
+    "spanishWord": "reir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "laten",
+    "spanishWord": "dejar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "leren",
+    "spanishWord": "aprender",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "moeten",
+    "spanishWord": "deber",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "nemen",
+    "spanishWord": "tomar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "plannen",
+    "spanishWord": "planear",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "schilderen",
+    "spanishWord": "pintar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "staan",
+    "spanishWord": "estar de pie",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "starten",
+    "spanishWord": "empezar",
+    "dutch-variants": "beginnen",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "tellen",
+    "spanishWord": "contar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "vinden",
+    "spanishWord": "encontrar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "voelen",
+    "spanishWord": "sentir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "weten",
+    "spanishWord": "saber",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "zetten",
+    "spanishWord": "poner",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "zitten",
+    "spanishWord": "estar sentado",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 3,
+    "dutchWord": "zoeken",
+    "spanishWord": "buscar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "groeien",
+    "spanishWord": "crecer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "geloven",
+    "spanishWord": "creer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "houden",
+    "spanishWord": "mantener",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "mogen",
+    "spanishWord": "poder",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "veranderen",
+    "spanishWord": "cambiar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "bezoeken",
+    "spanishWord": "visitar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "betekenen",
+    "spanishWord": "significar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "bieden",
+    "spanishWord": "ofrecer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "krijgen",
+    "spanishWord": "recibir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "leggen",
+    "spanishWord": "poner",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "leiden",
+    "spanishWord": "dirigir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "liggen",
+    "spanishWord": "estar tumbado",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "lijken",
+    "spanishWord": "parecer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "proberen",
+    "spanishWord": "intentar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "stellen",
+    "spanishWord": "colocar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "vallen",
+    "spanishWord": "caer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "vertrouwen",
+    "spanishWord": "confiar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "verwachten",
+    "spanishWord": "esperar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "worden",
+    "spanishWord": "llegar a ser",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 4,
+    "dutchWord": "zorgen",
+    "spanishWord": "cuidar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "volgen",
+    "spanishWord": "seguir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "bepalen",
+    "spanishWord": "determinar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "halen",
+    "spanishWord": "lograr",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "gelden",
+    "spanishWord": "valer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "trekken",
+    "spanishWord": "tirar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "vormen",
+    "spanishWord": "formar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "betreffen",
+    "spanishWord": "concernir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "betrekken",
+    "spanishWord": "implicar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "bezitten",
+    "spanishWord": "tener",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "plaatsen",
+    "spanishWord": "situar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "voorstellen",
+    "spanishWord": "proponer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "voorzien",
+    "spanishWord": "prever",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "bedragen",
+    "spanishWord": "sumar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "beperken",
+    "spanishWord": "limitar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "blijken",
+    "spanishWord": "resultar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "gebeuren",
+    "spanishWord": "ocurrir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "leveren",
+    "spanishWord": "entregar",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "ontstaan",
+    "spanishWord": "originarse",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "stijgen",
+    "spanishWord": "subir",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  },
+  {
+    "category": "Werkwoorden",
+    "level": 5,
+    "dutchWord": "voeren",
+    "spanishWord": "hacer",
+    "dutch-variants": "",
+    "spanish-variants": "",
+    "article": "",
+    "type": "verb"
+  }
+]

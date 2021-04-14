@@ -19,6 +19,7 @@
 		498F22742623F1FA0025A40B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F22732623F1FA0025A40B /* GameViewController.swift */; };
 		498F22792623F4280025A40B /* AppEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F22782623F4280025A40B /* AppEngine.swift */; };
 		498F227C2623F4400025A40B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F227B2623F4400025A40B /* Word.swift */; };
+		49AB40302626444400E9DBE5 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AB402F2626444400E9DBE5 /* CategoriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +37,7 @@
 		498F22732623F1FA0025A40B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		498F22782623F4280025A40B /* AppEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEngine.swift; sourceTree = "<group>"; };
 		498F227B2623F4400025A40B /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
-		49AB402C2626228600E9DBE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		49AB402F2626444400E9DBE5 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +79,6 @@
 				498F225C2623E47B0025A40B /* Assets.xcassets */,
 				498F225E2623E47B0025A40B /* LaunchScreen.storyboard */,
 				498F22612623E47B0025A40B /* Info.plist */,
-				49AB402C2626228600E9DBE5 /* README.md */,
 			);
 			path = Holandes;
 			sourceTree = "<group>";
@@ -107,6 +107,7 @@
 				498F22702623F1CF0025A40B /* HetDeViewController.swift */,
 				498F22732623F1FA0025A40B /* GameViewController.swift */,
 				494D5B3F26252A84007D5B71 /* ResultsViewController.swift */,
+				49AB402F2626444400E9DBE5 /* CategoriesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -185,6 +186,7 @@
 				498F227C2623F4400025A40B /* Word.swift in Sources */,
 				498F226E2623EED70025A40B /* FlashcardsViewController.swift in Sources */,
 				498F22582623E4790025A40B /* MainViewController.swift in Sources */,
+				49AB40302626444400E9DBE5 /* CategoriesViewController.swift in Sources */,
 				498F22542623E4790025A40B /* AppDelegate.swift in Sources */,
 				494D5B4026252A84007D5B71 /* ResultsViewController.swift in Sources */,
 				498F22712623F1CF0025A40B /* HetDeViewController.swift in Sources */,

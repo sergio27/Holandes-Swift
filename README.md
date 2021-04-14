@@ -4,23 +4,25 @@ Holandés (nombre temporal en lo se me ocurre algo mejor) es una app para iOS pa
 
 Este es mi primer proyecto en Swift, por lo que voy a ir aprendiendo y mejorándolo sobre la marcha.
 
-## Versión 0.1
+## Versión 0.2
 
 La app tiene tres secciones:
     - Vocabulario, con tarjetas para memorizar y practicar las palabras.
     - Juego, donde el usuario debe escribir el significado de la palabra.
     - het / de, para identificar si el artículo de una palabra es 'het' o 'de'.
     
-En esta primera versión solo hay cinco palabras de prueba. 
+La versión actual toma las palabras de una URL con un JSON estático. 
 
 ## TODO
 
-- Agregar vocabulario desde una base de datos.
-- Agregar categorías y dar seguimiento de los resultados para cada una.
-- Refactorizar el código para tener un mejor modelo y usar delegados.
+- Refactorizar el código para tener un mejor modelo, usar delegados y crear archivo de constantes.
 - Corregir las advertencias del proyecto (especialmente del Storyboard).
 - Mejorar el diseño gráfico de la aplicación.
+- Realizar pruebas en dispositivos físicos.
 - Publicar la aplicación en la App Store.
+
+- Agregar imágenes a las tarjetas.
+- Agregar sonido a las palabras.
 
 ## Contribuir
 Por el momento este es un proyecto personal. Apreciaría mucho cualquier comentario sobre cómo podría mejorarlo.

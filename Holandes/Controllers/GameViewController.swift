@@ -16,8 +16,8 @@ class GameViewController: UIViewController {
     @IBOutlet weak var rightAnswerLabel: UILabel!
     @IBOutlet weak var sendAnswerButton: UIButton!
     
-    let engine = AppEngine()
     var words = [] as [Word]
+    var category = ""
     
     var currentWord: Word?
     var currentIndex = -1
@@ -33,7 +33,9 @@ class GameViewController: UIViewController {
 
         self.navigationController!.setNavigationBarHidden(false, animated: true)
         
-        words = engine.words
+        category = AppEngine.engine.selectedCategory
+        words = AppEngine.engine.getWords(withCategory: category)
+        
         words.shuffle()
         
         getNewWord()
@@ -50,6 +52,9 @@ class GameViewController: UIViewController {
             if (currentIndex + 1) == words.count {
                 gameOver = true
                 performSegue(withIdentifier: "resultsSegue", sender: self)
+                
+                let score = Double(correctAnswers) / Double(words.count) * 100
+                AppEngine.engine.saveScore(category: category, score: Int(score))
             }
             else {
                 getNewWord()

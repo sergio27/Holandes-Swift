@@ -9,7 +9,6 @@ import UIKit
 
 class HetDeViewController: UIViewController {
 
-    let engine = AppEngine()
     var words = [] as [Word]
     
     var currentWord: Word?
@@ -30,7 +29,9 @@ class HetDeViewController: UIViewController {
         hetAnswerButton.layer.borderColor = UIColor(named: "RadiantYellow")!.cgColor
         deAnswerButton.layer.borderColor = UIColor(named: "RadiantYellow")!.cgColor
         
-        words = engine.words
+        words = AppEngine.engine.getWords(withOption: "noun")
+        words.shuffle()
+        
         getNewWord()
     }
     
@@ -47,23 +48,23 @@ class HetDeViewController: UIViewController {
     }
     
     func checkAnswer(answer: String) {
-        if(currentWord!.isHetWord && answer == "het") {
+        if(currentWord!.article == "het" && answer == "het") {
             hetAnswerButton.backgroundColor = greenColor
             hetAnswerButton.setTitleColor(UIColor.white, for: .normal)
             
             correctAnswers += 1
         }
-        else if (!currentWord!.isHetWord && answer == "het") {
+        else if (currentWord!.article == "de" && answer == "het") {
             hetAnswerButton.backgroundColor = redColor
             hetAnswerButton.setTitleColor(UIColor.white, for: .normal)
         }
-        else if (!currentWord!.isHetWord && answer == "de") {
+        else if (currentWord!.article == "de" && answer == "de") {
             deAnswerButton.backgroundColor = greenColor
             deAnswerButton.setTitleColor(UIColor.white, for: .normal)
             
             correctAnswers += 1
         }
-        else if (currentWord!.isHetWord && answer == "de") {
+        else if (currentWord!.article == "het" && answer == "de") {
             deAnswerButton.backgroundColor = redColor
             deAnswerButton.setTitleColor(UIColor.white, for: .normal)
         }
