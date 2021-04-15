@@ -18,16 +18,13 @@ class HetDeViewController: UIViewController {
     var restart = false
     var gameOver = false
     
-    var greenColor = UIColor(named: "AndroidGreen")
-    var redColor = UIColor(named: "BaraRed")
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.navigationController!.setNavigationBarHidden(false, animated: true)
         
-        hetAnswerButton.layer.borderColor = UIColor(named: "RadiantYellow")!.cgColor
-        deAnswerButton.layer.borderColor = UIColor(named: "RadiantYellow")!.cgColor
+        hetAnswerButton.layer.borderColor = K.Colors.Orange!.cgColor
+        deAnswerButton.layer.borderColor = K.Colors.Orange!.cgColor
         
         words = AppEngine.engine.getWords(withOption: "noun")
         words.shuffle()
@@ -49,23 +46,23 @@ class HetDeViewController: UIViewController {
     
     func checkAnswer(answer: String) {
         if(currentWord!.article == "het" && answer == "het") {
-            hetAnswerButton.backgroundColor = greenColor
+            hetAnswerButton.backgroundColor = K.Colors.Green
             hetAnswerButton.setTitleColor(UIColor.white, for: .normal)
             
             correctAnswers += 1
         }
         else if (currentWord!.article == "de" && answer == "het") {
-            hetAnswerButton.backgroundColor = redColor
+            hetAnswerButton.backgroundColor = K.Colors.Red
             hetAnswerButton.setTitleColor(UIColor.white, for: .normal)
         }
         else if (currentWord!.article == "de" && answer == "de") {
-            deAnswerButton.backgroundColor = greenColor
+            deAnswerButton.backgroundColor = K.Colors.Green
             deAnswerButton.setTitleColor(UIColor.white, for: .normal)
             
             correctAnswers += 1
         }
         else if (currentWord!.article == "het" && answer == "de") {
-            deAnswerButton.backgroundColor = redColor
+            deAnswerButton.backgroundColor = K.Colors.Red
             deAnswerButton.setTitleColor(UIColor.white, for: .normal)
         }
         
@@ -75,17 +72,31 @@ class HetDeViewController: UIViewController {
     @IBAction func sendAnswer(_ sender: Any) {
         let answerButton = sender as! UIButton
         checkAnswer(answer: answerButton.currentTitle!)
+        
+        lockControls()
     }
     
     @IBAction func nextWord(_ sender: Any) {
         if (currentIndex + 1) == words.count {
             gameOver = true
-            performSegue(withIdentifier: "resultsSegue", sender: self)
+            performSegue(withIdentifier: K.Segues.ResultsSegue, sender: self)
         }
         else {
             currentIndex += 1
             getNewWord()
+            
+            resetControls()
         }
+    }
+    
+    func lockControls () {
+        hetAnswerButton.isEnabled = false
+        deAnswerButton.isEnabled = false
+    }
+    
+    func resetControls() {
+        hetAnswerButton.isEnabled = true
+        deAnswerButton.isEnabled = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -95,10 +106,10 @@ class HetDeViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-       let resultsViewController = segue.destination as! ResultsViewController
-       
-        resultsViewController.resultsText = "Tuviste \(correctAnswers) de \(words.count) respuestas correctas."
-       resultsViewController.gameViewController = self
+        let resultsViewController = segue.destination as! ResultsViewController
+        resultsViewController.gameViewController = self
+        
+        AppEngine.engine.results = "Tuviste \(correctAnswers) de \(words.count) respuestas correctas."
    }
     
     @IBOutlet weak var wordButton: UIButton!

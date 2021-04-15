@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		494D5B4026252A84007D5B71 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D5B3F26252A84007D5B71 /* ResultsViewController.swift */; };
+		496DFD042627DD0B00A706BE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DFD032627DD0B00A706BE /* Constants.swift */; };
 		498F22542623E4790025A40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F22532623E4790025A40B /* AppDelegate.swift */; };
 		498F22562623E4790025A40B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F22552623E4790025A40B /* SceneDelegate.swift */; };
 		498F22582623E4790025A40B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F22572623E4790025A40B /* MainViewController.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		494D5B3F26252A84007D5B71 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		496DFD032627DD0B00A706BE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		498F22502623E4790025A40B /* Holandes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holandes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498F22532623E4790025A40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		498F22552623E4790025A40B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				498F226A2623EE5B0025A40B /* Views */,
 				498F226B2623EE610025A40B /* Controllers */,
 				498F22532623E4790025A40B /* AppDelegate.swift */,
+				496DFD032627DD0B00A706BE /* Constants.swift */,
 				498F22552623E4790025A40B /* SceneDelegate.swift */,
 				498F22592623E4790025A40B /* Main.storyboard */,
 				498F225C2623E47B0025A40B /* Assets.xcassets */,
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				498F22792623F4280025A40B /* AppEngine.swift in Sources */,
+				496DFD042627DD0B00A706BE /* Constants.swift in Sources */,
 				498F227C2623F4400025A40B /* Word.swift in Sources */,
 				498F226E2623EED70025A40B /* FlashcardsViewController.swift in Sources */,
 				498F22582623E4790025A40B /* MainViewController.swift in Sources */,
@@ -339,6 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HRK6F2C7AE;
 				INFOPLIST_FILE = Holandes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,6 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HRK6F2C7AE;
 				INFOPLIST_FILE = Holandes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -9,62 +9,56 @@ import UIKit
 
 class GameViewController: UIViewController {
     
-    @IBOutlet weak var wordButton: UIButton!
-    @IBOutlet weak var wordTextArea: UITextField!
-    @IBOutlet weak var rightAnswerImage: UIImageView!
-    @IBOutlet weak var wrongAnswerImage: UIImageView!
-    @IBOutlet weak var rightAnswerLabel: UILabel!
-    @IBOutlet weak var sendAnswerButton: UIButton!
-    
-    var words = [] as [Word]
-    var category = ""
-    
-    var currentWord: Word?
-    var currentIndex = -1
-    var correctAnswers = 0
-    
     var answerSent = false
+    var currentWord: Word?
     
-    var restart = false
-    var gameOver = false
+    var textLocked = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.navigationController!.setNavigationBarHidden(false, animated: true)
         
-        category = AppEngine.engine.selectedCategory
-        words = AppEngine.engine.getWords(withCategory: category)
+        currentWord = AppEngine.engine.getNextWord()
+        wordButton.setTitle(currentWord?.dutchWord, for: .normal)
         
-        words.shuffle()
-        
-        getNewWord()
+        wordTextArea.becomeFirstResponder()
+        wordTextArea.delegate = self
     }
     
     @IBAction func sendAnswer(_ sender: Any) {
         if(!answerSent) {
-            checkAnswer()
+            if(AppEngine.engine.checkAnswer(forWord: currentWord!, answer: wordTextArea.text ?? "")) {
+                rightAnswerImage.isHidden = false
+            }
+            else {
+                wrongAnswerImage.isHidden = false
+            }
+            rightAnswerLabel.text = currentWord!.spanishWord
             
             sendAnswerButton.setTitle("Siguiente", for: .normal)
             answerSent = true
+            
+            lockControls()
         }
         else {
-            if (currentIndex + 1) == words.count {
-                gameOver = true
-                performSegue(withIdentifier: "resultsSegue", sender: self)
-                
-                let score = Double(correctAnswers) / Double(words.count) * 100
-                AppEngine.engine.saveScore(category: category, score: Int(score))
+            resetControls()
+            
+            if let word = AppEngine.engine.getNextWord() {
+                currentWord = word
+                wordButton.setTitle(word.dutchWord, for: .normal)
             }
             else {
-                getNewWord()
+                performSegue(withIdentifier: K.Segues.ResultsSegue, sender: self)
             }
         }
     }
     
-    func getNewWord() {
-        currentIndex += 1
-        
+    func lockControls() {
+        textLocked = true
+    }
+    
+    func resetControls() {
         rightAnswerImage.isHidden = true
         wrongAnswerImage.isHidden = true
         
@@ -72,32 +66,48 @@ class GameViewController: UIViewController {
         sendAnswerButton.setTitle("Enviar", for: .normal)
         rightAnswerLabel.text = " "
         
-        currentWord = words[currentIndex]
+        textLocked = false
         wordTextArea.text = ""
-        wordButton.setTitle(currentWord!.dutchWord, for: .normal)
-    }
-    
-    func checkAnswer() {
-        if(wordTextArea.text == currentWord?.spanishWord) {
-            rightAnswerImage.isHidden = false
-            correctAnswers += 1
-        }
-        else {
-            wrongAnswerImage.isHidden = false
-        }
-        rightAnswerLabel.text = currentWord?.spanishWord
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        if gameOver {
+        if AppEngine.engine.gameOver {
             self.navigationController?.popViewController(animated: false)
         }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        let resultsViewController = segue.destination as! ResultsViewController
-       
-       resultsViewController.resultsText = "Tuviste \(correctAnswers) de \(words.count) respuestas correctas."
        resultsViewController.gameViewController = self
-   }
+    }
+    
+    @IBOutlet weak var wordButton: UIButton!
+    @IBOutlet weak var wordTextArea: UITextField!
+    @IBOutlet weak var rightAnswerImage: UIImageView!
+    @IBOutlet weak var wrongAnswerImage: UIImageView!
+    @IBOutlet weak var rightAnswerLabel: UILabel!
+    @IBOutlet weak var sendAnswerButton: UIButton!
+}
+
+extension GameViewController: UITextFieldDelegate {
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        if string.trimmingCharacters(in: .whitespacesAndNewlines).count == 0 {
+            return true
+        }
+        
+        if(textLocked) {
+            return false
+        }
+        
+        if string.lowercased() == string {
+            textField.text = (textField.text! as NSString).replacingCharacters(in: range, with: string.lowercased())
+        } else {
+            textField.text = (textField.text! as NSString).replacingCharacters(in: range, with: string.lowercased())
+        }
+
+        return false
+    }
+    
 }

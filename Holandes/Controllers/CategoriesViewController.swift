@@ -25,7 +25,7 @@ class CategoriesViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.ReusableCells.ReusableCell, for: indexPath)
 
         let category = Array(categories.keys.sorted())[indexPath.row]
         cell.textLabel?.text = category
@@ -42,13 +42,14 @@ class CategoriesViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let selectedCategory = Array(categories.keys.sorted())[indexPath.row]
-        AppEngine.engine.selectedCategory = selectedCategory
+        
+        AppEngine.engine.loadNewGame(withCategory: selectedCategory)
         
         if(AppEngine.engine.selectedOption == "Vocabulario") {
-            performSegue(withIdentifier: "flashcardsSegue", sender: self)
+            performSegue(withIdentifier: K.Segues.FlashcardsSegue, sender: self)
         }
         else if(AppEngine.engine.selectedOption == "Juego") {
-            performSegue(withIdentifier: "gameSegue", sender: self)
+            performSegue(withIdentifier: K.Segues.GameSegue, sender: self)
         }
     }
     

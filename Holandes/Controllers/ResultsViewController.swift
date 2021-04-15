@@ -15,7 +15,7 @@ class ResultsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        resultsTextLabel.text = resultsText
+        resultsTextLabel.text = AppEngine.engine.results
     }
     
     @IBAction func exitButton(_ sender: Any) {

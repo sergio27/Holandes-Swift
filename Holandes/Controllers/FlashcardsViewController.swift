@@ -9,10 +9,6 @@ import UIKit
 
 class FlashcardsViewController: UIViewController {
     
-    @IBOutlet weak var cardButton: UIButton!
-    @IBOutlet weak var correctButton: UIButton!
-    @IBOutlet weak var wrongButton: UIButton!
-    
     var words = [] as [Word]
     
     var category = ""
@@ -34,8 +30,8 @@ class FlashcardsViewController: UIViewController {
 
         self.navigationController!.setNavigationBarHidden(false, animated: true)
         
-        correctButton.layer.borderColor = UIColor(named: "RadiantYellow")!.cgColor
-        wrongButton.layer.borderColor = UIColor(named: "RadiantYellow")!.cgColor
+        correctButton.layer.borderColor = K.Colors.Orange!.cgColor
+        wrongButton.layer.borderColor = K.Colors.Orange!.cgColor
         
         category = AppEngine.engine.selectedCategory
         words = AppEngine.engine.getWords(withCategory: category)
@@ -105,11 +101,11 @@ class FlashcardsViewController: UIViewController {
         
         if words.count == 0 {
             gameOver = true
-            performSegue(withIdentifier: "resultsSegue", sender: self)
+            performSegue(withIdentifier: K.Segues.ResultsSegue, sender: self)
         }
     }
     
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultsViewController = segue.destination as! ResultsViewController
         
         resultsViewController.resultsText = "Tuviste \(correctAnswers) de \(totalWords) respuestas correctas."
@@ -121,4 +117,9 @@ class FlashcardsViewController: UIViewController {
             self.navigationController?.popViewController(animated: false)
         }
     }
+    
+    @IBOutlet weak var cardButton: UIButton!
+    @IBOutlet weak var correctButton: UIButton!
+    @IBOutlet weak var wrongButton: UIButton!
+    
 }

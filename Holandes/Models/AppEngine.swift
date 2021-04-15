@@ -11,13 +11,21 @@ class AppEngine {
     
     static let engine = AppEngine()
     
-    var words: [Word] = []
+    var allWords: [Word] = []
     var categories: [String: [Word]] = [ : ]
     
     var gameScores: [String: Int] = [:]
     
     var selectedOption = ""
     var selectedCategory = ""
+    
+    var words: [Word] = []
+    
+    var correctAnswers = 0
+    var totalWords = 0
+    var gameOver = false
+    
+    var results = ""
     
     let wordsURL = "http://sergio27.com/holandes/words.txt"
     
@@ -45,7 +53,7 @@ class AppEngine {
         
         do {
             let decodedWords: [Word] = try decoder.decode([Word].self, from: data)
-            words = decodedWords
+            allWords = decodedWords
             loadCategories()
         }
         catch {
@@ -54,7 +62,7 @@ class AppEngine {
     }
     
     func loadCategories() {
-        words.forEach { word in
+        allWords.forEach { word in
             let category = "\(word.category) (\(word.level))"
             
             if(categories[category] == nil) {
@@ -62,7 +70,6 @@ class AppEngine {
             }
             
             categories[category]!.append(word)
-            
         }
         
         updateCategories()
@@ -115,10 +122,70 @@ class AppEngine {
     func getWords(withOption option: String) -> [Word] {
         var selectedWords: [Word] = []
         
-        words.forEach() { word in
+        allWords.forEach() { word in
             if word.type == option { selectedWords.append(word) }
         }
         
-        return selectedWords
+        return selectedWords.prefix(20).shuffled()
+    }
+    
+    func loadNewGame(withCategory category: String) {
+        selectedCategory = category
+        
+        if let selectedWords = categories[category] {
+            words = selectedWords
+            words.shuffle()
+            
+            totalWords = words.count
+        }
+        
+        correctAnswers = 0
+        gameOver = false
+    }
+    
+    func getNextWord() -> Word? {
+        if(words.count == 0) {
+            gameOver = true
+            
+            let score = Double(correctAnswers) / Double(totalWords) * 100
+            saveScore(category: selectedCategory, score: Int(score))
+            
+            results = "Tuviste \(correctAnswers) de \(totalWords) respuestas correctas."
+            return nil
+        }
+        
+        let nextWord = words.popLast()
+        return nextWord
+    }
+    
+    func checkAnswer(forWord word: Word, answer: String) -> Bool{
+
+        let formattedBase = formatWord(word: word.spanishWord)
+        let formattedAnswer = formatWord(word: answer)
+        
+        var result = (formattedBase == formattedAnswer)
+        
+        if(!result) {
+            let variants = word.spanishVariants.split(separator: ",")
+            variants.forEach { variant in
+                let trimmed = variant.trimmingCharacters(in: .whitespacesAndNewlines)
+                if(trimmed == answer) {
+                    result = true
+                }
+            }
+        }
+        
+        if(result) {
+            correctAnswers += 1
+        }
+        
+        return result
+    }
+    
+    func formatWord(word: String) -> String {
+        var formattedWord = word.trimmingCharacters(in: .whitespacesAndNewlines)
+        formattedWord = formattedWord.folding(options: .diacriticInsensitive, locale:nil)
+        
+        return formattedWord
     }
 }

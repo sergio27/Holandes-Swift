@@ -11,9 +11,12 @@ struct Word: Decodable {
     let category: String
     let level: Int
     
-    let dutchWord : String
-    let spanishWord: String
-    
     let article: String
     let type: String
+    
+    let dutchWord: String
+    let spanishWord: String
+
+    let dutchVariants: String
+    let spanishVariants: String
 }

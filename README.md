@@ -15,12 +15,15 @@ La versión actual toma las palabras de una URL con un JSON estático.
 
 ## TODO
 
-- Refactorizar el código para tener un mejor modelo, usar delegados y crear archivo de constantes.
-- Corregir las advertencias del proyecto (especialmente del Storyboard).
-- Mejorar el diseño gráfico de la aplicación.
+### v1.0
 - Realizar pruebas en dispositivos físicos.
 - Publicar la aplicación en la App Store.
 
+### v1.1
+- Refactorizar el código para usar delegados.
+- Agregar pantallas con instrucciones.
+- Llevar registro de los errores del usuario. 
+- Mejorar el diseño gráfico de la aplicación.
 - Agregar imágenes a las tarjetas.
 - Agregar sonido a las palabras.
 
