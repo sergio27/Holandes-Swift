@@ -31,3 +31,8 @@ La versión actual toma las palabras de una URL con un JSON estático.
 Por el momento este es un proyecto personal. Apreciaría mucho cualquier comentario sobre cómo podría mejorarlo.
 
 Acepto también ayuda en cuanto al diseño de la app. Por el momento no tiene icono y la interfaz es muy básica.
+
+## Atribuciones
+
+El vector de tulipán utilizado en la app es de Vecteezy.com.
+La paleta de colores fue creada por Jeroen van Eerden para flatuicolors.com.

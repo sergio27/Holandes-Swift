@@ -21,6 +21,7 @@
 		498F22792623F4280025A40B /* AppEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F22782623F4280025A40B /* AppEngine.swift */; };
 		498F227C2623F4400025A40B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F227B2623F4400025A40B /* Word.swift */; };
 		49AB40302626444400E9DBE5 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AB402F2626444400E9DBE5 /* CategoriesViewController.swift */; };
+		49C267E5262FD64A0005E812 /* DB.json in Resources */ = {isa = PBXBuildFile; fileRef = 49C267E4262FD64A0005E812 /* DB.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		498F22782623F4280025A40B /* AppEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEngine.swift; sourceTree = "<group>"; };
 		498F227B2623F4400025A40B /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		49AB402F2626444400E9DBE5 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		49C267E4262FD64A0005E812 /* DB.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DB.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				498F22782623F4280025A40B /* AppEngine.swift */,
 				498F227B2623F4400025A40B /* Word.swift */,
+				49C267E4262FD64A0005E812 /* DB.json */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				498F22602623E47B0025A40B /* LaunchScreen.storyboard in Resources */,
+				49C267E5262FD64A0005E812 /* DB.json in Resources */,
 				498F225D2623E47B0025A40B /* Assets.xcassets in Resources */,
 				498F225B2623E4790025A40B /* Main.storyboard in Resources */,
 			);
@@ -343,13 +347,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6FLL24R63X;
+				DEVELOPMENT_TEAM = HRK6F2C7AE;
 				INFOPLIST_FILE = Holandes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sergio27.Holandes-Prueba001";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergio27.Holandes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -362,13 +366,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6FLL24R63X;
+				DEVELOPMENT_TEAM = HRK6F2C7AE;
 				INFOPLIST_FILE = Holandes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sergio27.Holandes-Prueba001";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergio27.Holandes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

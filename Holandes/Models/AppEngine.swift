@@ -27,10 +27,27 @@ class AppEngine {
     
     var results = ""
     
-    let wordsURL = "http://sergio27.com/holandes/words.txt"
-    
     func downloadWords() {
-        if let url = URL(string: wordsURL) {
+        if let url = Bundle.main.url(forResource: "DB", withExtension: "json") {
+            let session = URLSession(configuration: .default)
+            
+            let task = session.dataTask(with: url) { (data, response, error) in
+                if error != nil {
+                    print(error!)
+                    return
+                }
+                
+                if let safeData = data {
+                    self.parseJSON(data: safeData)
+                }
+            }
+            
+            task.resume()
+        }
+    }
+    
+    func updateWords() {
+        if let url = URL(string: K.URLs.WordsURL) {
             let session = URLSession(configuration: .default)
             
             let task = session.dataTask(with: url) { (data, response, error) in
@@ -62,6 +79,8 @@ class AppEngine {
     }
     
     func loadCategories() {
+        categories.removeAll()
+        
         allWords.forEach { word in
             let category = "\(word.category) (\(word.level))"
             
@@ -137,6 +156,7 @@ class AppEngine {
             words.shuffle()
             
             totalWords = words.count
+            print(totalWords)
         }
         
         correctAnswers = 0

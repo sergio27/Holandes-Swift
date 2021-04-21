@@ -33,82 +33,84 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fn4-fF-spu">
-                                <rect key="frame" x="65" y="637" width="284" height="71"/>
-                                <color key="backgroundColor" name="RadiantYellow"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="71" id="4E3-Un-n6X"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Juego">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="1Dh-to-enU" kind="show" id="s66-mw-Rc3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1b-HW-Sme">
-                                <rect key="frame" x="65" y="732" width="284" height="71"/>
-                                <color key="backgroundColor" name="RadiantYellow"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="71" id="jUd-RN-f5j"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="het / de">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="pJR-Tk-a4J" kind="show" id="bJr-Ph-RfI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUr-xi-ST5">
-                                <rect key="frame" x="65" y="542" width="284" height="71"/>
-                                <color key="backgroundColor" name="RadiantYellow"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="71" id="PNv-nn-W3c"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Vocabulario">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="1Dh-to-enU" kind="show" id="VHE-bf-pxB"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OrangeTulip" translatesAutoresizingMaskIntoConstraints="NO" id="zhx-nX-2rO">
-                                <rect key="frame" x="87" y="122" width="240" height="248"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="daI-YC-SaX">
+                                <rect key="frame" x="20" y="108" width="374" height="734"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OrangeTulip" translatesAutoresizingMaskIntoConstraints="NO" id="zhx-nX-2rO">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="441"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="guR-0o-UiW">
+                                        <rect key="frame" x="0.0" y="471" width="374" height="263"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUr-xi-ST5">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="71"/>
+                                                <color key="backgroundColor" name="RadiantYellow"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="71" id="PNv-nn-W3c"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Vocabulario">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="1Dh-to-enU" kind="show" id="VHE-bf-pxB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fn4-fF-spu">
+                                                <rect key="frame" x="0.0" y="96" width="374" height="71"/>
+                                                <color key="backgroundColor" name="RadiantYellow"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="71" id="4E3-Un-n6X"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Juego">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="1Dh-to-enU" kind="show" id="s66-mw-Rc3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1b-HW-Sme">
+                                                <rect key="frame" x="0.0" y="192" width="374" height="71"/>
+                                                <color key="backgroundColor" name="RadiantYellow"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="71" id="jUd-RN-f5j"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="het / de">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="pJR-Tk-a4J" kind="show" id="bJr-Ph-RfI"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="m1b-HW-Sme" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="4fM-Bc-TCW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fn4-fF-spu" secondAttribute="trailing" constant="65" id="7Vu-bk-36y"/>
-                            <constraint firstItem="zhx-nX-2rO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="DOt-E2-Mha"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m1b-HW-Sme" secondAttribute="trailing" constant="65" id="JLj-7t-zgJ"/>
-                            <constraint firstItem="fn4-fF-spu" firstAttribute="top" secondItem="qUr-xi-ST5" secondAttribute="bottom" constant="24" id="KeH-Ve-63p"/>
-                            <constraint firstItem="m1b-HW-Sme" firstAttribute="top" secondItem="fn4-fF-spu" secondAttribute="bottom" constant="24" id="Psk-YS-jVk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zhx-nX-2rO" secondAttribute="trailing" constant="87" id="QuC-4E-g8c"/>
-                            <constraint firstItem="qUr-xi-ST5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="SAi-HQ-J61"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="m1b-HW-Sme" secondAttribute="bottom" constant="59" id="SgC-dq-vJ8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qUr-xi-ST5" secondAttribute="trailing" constant="65" id="WQd-OG-Jqw"/>
-                            <constraint firstItem="zhx-nX-2rO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="eJ4-nG-IWH"/>
-                            <constraint firstItem="fn4-fF-spu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="emf-WD-QTi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="daI-YC-SaX" secondAttribute="bottom" constant="20" id="b9y-e6-RG6"/>
+                            <constraint firstItem="daI-YC-SaX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="l8F-YE-4Lc"/>
+                            <constraint firstItem="daI-YC-SaX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="oVj-go-S4R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="daI-YC-SaX" secondAttribute="trailing" constant="20" id="xlx-Fr-fAV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Vbg-bl-8Wc">
@@ -298,77 +300,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4G-7J-G90">
-                                <rect key="frame" x="376.5" y="44" width="17.5" height="22"/>
-                                <color key="tintColor" systemColor="systemOrangeColor"/>
-                                <state key="normal" image="xmark" catalog="system"/>
-                                <connections>
-                                    <action selector="exitButton:" destination="8qZ-DK-8dD" eventType="touchUpInside" id="3en-kp-j6E"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMh-6G-hct">
-                                <rect key="frame" x="20" y="171" width="374" height="203"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpd-Y1-9u7">
-                                <rect key="frame" x="20" y="462" width="374" height="41"/>
-                                <color key="backgroundColor" name="RadiantYellow"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Reiniciar">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="restart:" destination="8qZ-DK-8dD" eventType="touchUpInside" id="zh6-4X-dJQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2J-kf-EgZ">
-                                <rect key="frame" x="20" y="541" width="374" height="41"/>
-                                <color key="backgroundColor" name="RadiantYellow"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Terminar">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="finish:" destination="8qZ-DK-8dD" eventType="touchUpInside" id="cJP-g9-glZ"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultados" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUf-td-fXE">
-                                <rect key="frame" x="20" y="120" width="374" height="43"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="mXA-oP-PLf">
+                                <rect key="frame" x="20" y="275" width="374" height="347"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultados" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUf-td-fXE">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMh-6G-hct">
+                                        <rect key="frame" x="0.0" y="73" width="374" height="203"/>
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2J-kf-EgZ">
+                                        <rect key="frame" x="0.0" y="306" width="374" height="41"/>
+                                        <color key="backgroundColor" name="RadiantYellow"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <state key="normal" title="Terminar">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="finish:" destination="8qZ-DK-8dD" eventType="touchUpInside" id="cJP-g9-glZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Uak-Qr-cbS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="V4G-7J-G90" firstAttribute="top" secondItem="Uak-Qr-cbS" secondAttribute="top" id="0fs-uT-dXn"/>
-                            <constraint firstItem="L2J-kf-EgZ" firstAttribute="leading" secondItem="Uak-Qr-cbS" secondAttribute="leading" constant="20" id="1P9-Kk-KUW"/>
-                            <constraint firstItem="XUf-td-fXE" firstAttribute="top" secondItem="Uak-Qr-cbS" secondAttribute="top" constant="76" id="4GD-J2-EQh"/>
-                            <constraint firstItem="Uak-Qr-cbS" firstAttribute="trailing" secondItem="XUf-td-fXE" secondAttribute="trailing" constant="20" id="7UK-Yg-hvg"/>
-                            <constraint firstItem="Uak-Qr-cbS" firstAttribute="trailing" secondItem="wpd-Y1-9u7" secondAttribute="trailing" constant="20" id="8Kc-0u-PhY"/>
-                            <constraint firstItem="XUf-td-fXE" firstAttribute="leading" secondItem="Uak-Qr-cbS" secondAttribute="leading" constant="20" id="GRT-HK-iLf"/>
-                            <constraint firstItem="Uak-Qr-cbS" firstAttribute="trailing" secondItem="V4G-7J-G90" secondAttribute="trailing" constant="20" id="Lkh-Da-gaG"/>
-                            <constraint firstItem="Uak-Qr-cbS" firstAttribute="trailing" secondItem="L2J-kf-EgZ" secondAttribute="trailing" constant="20" id="LqO-Pu-rIv"/>
-                            <constraint firstItem="ZMh-6G-hct" firstAttribute="top" secondItem="XUf-td-fXE" secondAttribute="bottom" constant="8" symbolic="YES" id="PjU-mg-Fd4"/>
-                            <constraint firstItem="L2J-kf-EgZ" firstAttribute="top" secondItem="wpd-Y1-9u7" secondAttribute="bottom" constant="38" id="QfE-dS-dee"/>
-                            <constraint firstItem="ZMh-6G-hct" firstAttribute="leading" secondItem="Uak-Qr-cbS" secondAttribute="leading" constant="20" id="cST-BH-IYK"/>
-                            <constraint firstItem="wpd-Y1-9u7" firstAttribute="leading" secondItem="Uak-Qr-cbS" secondAttribute="leading" constant="20" id="eqW-3J-HP4"/>
-                            <constraint firstItem="wpd-Y1-9u7" firstAttribute="top" secondItem="ZMh-6G-hct" secondAttribute="bottom" constant="88" id="ns3-bL-LPq"/>
-                            <constraint firstItem="Uak-Qr-cbS" firstAttribute="trailing" secondItem="ZMh-6G-hct" secondAttribute="trailing" constant="20" id="sfi-r5-Gu0"/>
+                            <constraint firstItem="Uak-Qr-cbS" firstAttribute="bottom" secondItem="mXA-oP-PLf" secondAttribute="bottom" constant="240" id="3Nj-ek-yo6"/>
+                            <constraint firstAttribute="trailing" secondItem="mXA-oP-PLf" secondAttribute="trailing" constant="20" id="7Yh-rA-FII"/>
+                            <constraint firstItem="mXA-oP-PLf" firstAttribute="top" secondItem="Uak-Qr-cbS" secondAttribute="top" constant="231" id="jNN-Ue-ixq"/>
+                            <constraint firstItem="mXA-oP-PLf" firstAttribute="leading" secondItem="Uak-Qr-cbS" secondAttribute="leading" constant="20" id="k2d-pu-LcD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SAe-7M-30E"/>
@@ -378,7 +351,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zlf-Vd-5dH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1907" y="-9"/>
+            <point key="canvasLocation" x="1905.7971014492755" y="-9.375"/>
         </scene>
         <!--Vocabulario-->
         <scene sceneID="Ran-nW-wJ2">
@@ -592,7 +565,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="JQL-9f-7va"/>
-        <segue reference="VHE-bf-pxB"/>
+        <segue reference="s66-mw-Rc3"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="OrangeTulip" width="166.5" height="248"/>
@@ -609,9 +582,6 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

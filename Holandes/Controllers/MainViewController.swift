@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         AppEngine.engine.downloadWords()
+        AppEngine.engine.updateWords()
     }
 
     override func viewWillAppear(_ animated: Bool) {

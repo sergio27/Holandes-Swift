@@ -108,7 +108,7 @@ class FlashcardsViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultsViewController = segue.destination as! ResultsViewController
         
-        resultsViewController.resultsText = "Tuviste \(correctAnswers) de \(totalWords) respuestas correctas."
+        AppEngine.engine.results = "Tuviste \(correctAnswers) de \(totalWords) respuestas correctas."
         resultsViewController.gameViewController = self
     }
     

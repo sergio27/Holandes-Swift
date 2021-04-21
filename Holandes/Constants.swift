@@ -26,4 +26,8 @@ struct K {
         static let ReusableCell = "ReusableCell"
     }
     
+    struct URLs {
+        static let WordsURL = "http://sergio27.com/holandes/words.txt"
+    }
+    
 }
